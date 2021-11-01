@@ -1,3 +1,4 @@
 # test-rebase-merge
 
-TEST REBASE MERGE #000
+TEST REBASE MERGE
+MARK 001
