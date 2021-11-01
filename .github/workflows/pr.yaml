@@ -3,9 +3,14 @@ on:
   push:
     branches-ignore:
       - main
+  pull_request:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - run: env
     - run: date
+    - run: git status
