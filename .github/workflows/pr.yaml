@@ -17,3 +17,5 @@ jobs:
       - run: env
       - run: date
       - run: git status
+      - name: true
+        run: true
