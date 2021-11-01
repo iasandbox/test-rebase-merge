@@ -11,6 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: env
-    - run: date
-    - run: git status
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: env
+      - run: date
+      - run: git status
